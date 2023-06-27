@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+  font-family: 'Arial', sans-serif;
+  color: var(--footer-text-color);
+  padding: 0.5rem 0;
+}
+
+.footer a {
+  color: var(--footer-text-color);
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 4px;
+}
