@@ -1,0 +1,32 @@
+:root {
+  --gray: #4F4F4F;
+  --black-color: #333333;
+  --footer-text-color: #AAAAAA;
+  
+  font-family: 'Space Mono', monospace;
+  font-weight: 500;
+  box-sizing: border-box;
+  color: var(--black-color);
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#root {
+  min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
